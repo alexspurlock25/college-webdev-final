@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: none;
+    background-color: white;
+}
+.mobile-nav-container {
+    display: none;
+}
+.desktop-nav-parent {
+    display: none;
+}
+.header-div h1 {
+    text-align: center;
+}
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    font-size: 12pt;
+    padding: 0 2em;
+    text-indent: 1.4em;
+
+}
+p:last-of-type {
+    margin-bottom: 3em;
+}
+dl {
+    margin: 0 auto;
+}
+dt {
+    font-weight: bold;
+    margin: 1.4em 0;
+
+}
+dd {
+    text-indent: 2em;
+}
+.image-container-flat-earth {
+    display: none;
+}
+
+/*
+turfing off table for now
+ */
+table {
+    display: none;
+}
+
+iframe {
+    display: none;
+}
+.feedback-parent-container {
+    display: none;
+}
+.help-support-container a:after {
+    content: " (" attr(href) ") ";
+}
+.follow-us-container a:after {
+    content: " (" attr(href) ") ";
+}
+
+
+footer {
+    display: none;
+}
